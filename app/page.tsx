@@ -1,16 +1,23 @@
 import React from 'react'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Hero from './components/Hero/Hero'
-import Airmax from './components/Airmax/Airmax'
 
+
+import Hero from './components/Hero'
+import Airmax from './components/Airmax'
+import Featured from './components/Featured'
+import Gearup from './components/Gearup'
+import Dontmiss from './components/Dontmiss'
+import Essentials from './components/Essentials'
 const page = () => {
   return (
     <div>
-      <Header/>
+      
       <Hero/>
       <Airmax/>
-      <Footer/>
+      <Featured/>
+      <Gearup/>
+      <Dontmiss/>
+      <Essentials/>
+     
     </div>
   )
 }

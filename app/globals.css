@@ -5,11 +5,11 @@
 @font-face {
     font-family: "Helvetica Neue";
     src: 
-         url("/fonts/HelveticaNeue.woff") format("woff") 
+         url("/fonts/HelveticaNeue.tff") format("truetype") 
     
 
   }
 
   body {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   }
